@@ -4,7 +4,13 @@ import { render } from 'react-dom';
 // include Components
 import Hello from './Hello';
 import ChatApp from './c01/ChatApp';
-import CommentBox from './c02/CommentBox'
+import CommentBox from './c02/CommentBox';
+import TabSelector from './c02/TabSelector';
+import StatefulTabSelector from './c02/StatefulTabSelector';
+import Clock from './c03/Clock';
+import SnapshotSample from './c04/SnapshotSample';
+import DomDiff from './c05/DomDiff';
+import AdvancedTabSelector from './c06/AdvancedTabSelector'
 // import {Button} from "antd";
 
 import "antd/dist/antd.css"
@@ -16,7 +22,13 @@ import * as serviceWorker from './serviceWorker';
 const routeMap = {
     hello: Hello,
     chat: ChatApp,
-    commentbox: CommentBox
+    commentbox: CommentBox,
+    tabSelctor: TabSelector,
+    stateTabSelector: StatefulTabSelector,
+    clock: Clock,
+    snapshot: SnapshotSample,
+    domDiff: DomDiff,
+    advancedSelector: AdvancedTabSelector
 }
 
 class App extends React.PureComponent{

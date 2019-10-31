@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px !important;
 }
 
 code {
@@ -22,6 +23,7 @@ code {
   text-align: left;
   text-indent: 10%;
   border-top: 2px solid #1890ff;
+  font-size: 18px;
 }
 .menu .link {
   cursor: pointer;
