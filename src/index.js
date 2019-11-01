@@ -11,6 +11,7 @@ import Clock from './c03/Clock';
 import SnapshotSample from './c04/SnapshotSample';
 import DomDiff from './c05/DomDiff';
 import AdvancedTabSelector from './c06/AdvancedTabSelector'
+import LocaleSample from './c07/LocaleSample'
 // import {Button} from "antd";
 
 import "antd/dist/antd.css"
@@ -28,7 +29,8 @@ const routeMap = {
     clock: Clock,
     snapshot: SnapshotSample,
     domDiff: DomDiff,
-    advancedSelector: AdvancedTabSelector
+    advancedSelector: AdvancedTabSelector,
+    localSample: LocaleSample
 }
 
 class App extends React.PureComponent{
