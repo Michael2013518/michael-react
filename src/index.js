@@ -12,7 +12,8 @@ import SnapshotSample from './c04/SnapshotSample';
 import DomDiff from './c05/DomDiff';
 import AdvancedTabSelector from './c06/AdvancedTabSelector'
 import LocaleSample from './c07/LocaleSample';
-import PureRedux from './c11/PureRedux'
+import PureRedux from './c11/PureRedux';
+import Counter from './c12/Counter'
 // import {Button} from "antd";
 
 import "antd/dist/antd.css"
@@ -32,7 +33,8 @@ const routeMap = {
     domDiff: DomDiff,
     advancedSelector: AdvancedTabSelector,
     localSample: LocaleSample,
-    pureRedux: PureRedux
+    pureRedux: PureRedux,
+    counter: Counter
 }
 
 class App extends React.PureComponent{
