@@ -13,8 +13,10 @@ import DomDiff from './c05/DomDiff';
 import AdvancedTabSelector from './c06/AdvancedTabSelector'
 import LocaleSample from './c07/LocaleSample';
 import PureRedux from './c11/PureRedux';
-import Counter from './c12/Counter'
-import RouterSample from './c16/RouterSample'
+import Counter from './c12/Counter';
+import RouterSample from './c16/RouterSample';
+import RouterParams from './c17/RouterParams';
+import NestedRouter from './c17/NestedRoute'
 // import {Button} from "antd";
 
 import "antd/dist/antd.css"
@@ -36,7 +38,9 @@ const routeMap = {
     localSample: LocaleSample,
     pureRedux: PureRedux,
     counter: Counter,
-    routerSample: RouterSample
+    routerSample: RouterSample,
+    routerParams: RouterParams,
+    nestRoute: NestedRouter
 }
 
 class App extends React.PureComponent{
